@@ -27,6 +27,9 @@ class App extends React.Component{
         const { advice } = this.state;
         return(
             <div className="app">
+                <div className="prabir">
+                    <h1 >Prabir React App</h1>
+                </div>
                 <div className="card">
                 <h1 className='heading'>{advice}</h1>
                 <button className="button" onClick={this.fetchAdvice}>
